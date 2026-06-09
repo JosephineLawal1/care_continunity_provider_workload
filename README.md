@@ -1,2 +1,8 @@
-# azhealthcare_operations_analytics
-Dive into the data, surface the insights that matter, and turn them into clear, actionable recommendations.
+# care_continunity_provider_workload
+“Operational analytics project analyzing provider workload and care continuity using patient encounter data.”
+data/
+notebooks/
+sql/
+dashboard/
+reports/
+src/
