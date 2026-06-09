@@ -1,50 +1,65 @@
+
 # Care Continuity & Provider Workload Analysis  
-Operational Analytics Project Using Patient Encounter Data  
-Author: Josephine — Healthcare Data Analyst  
+### Operational Analytics Project Using Patient Encounter Data  
+**Author:** Josephine  
+**Role:** Healthcare Data Analyst  
+**Last Updated:** June 2026  
 
-## Overview
-This project analyzes provider workload, care continuity, and operational efficiency using patient encounter data. It includes SQL scripts, Python modules, Jupyter notebooks, and dashboard wireframes.
+---
 
-## Objectives
-- Measure provider workload  
-- Evaluate continuity of care  
-- Analyze operational flow  
-- Identify high-utilizer patients  
+## 📌 Project Overview
 
-## Tools
-Python, SQL, Power BI/Tableau, Jupyter Notebooks
+This project analyzes **provider workload**, **care continuity**, and **operational efficiency** using a patient encounter dataset.  
+The goal is to identify:
 
-## Repository Structure
-See folder tree above.
+- Workload imbalances across providers  
+- Fragmented care patterns  
+- Misalignment between staffing and patient demand  
+- High-utilizer patient groups  
+- Operational bottlenecks affecting throughput and patient experience  
 
-## How to Run
-1. Place encounter data in `/data/`  
-2. Run notebooks in order  
-3. Build dashboard using dataset from notebook 05  
+This project demonstrates real-world healthcare analytics skills including SQL, Python, data modeling, operational KPIs, and dashboard design.
 
-## Status
-Complete — Portfolio Ready
+---
 
+## 🏥 Business Problem
 
-# Data Dictionary
+Hospitals struggle with:
 
-### encounter_id  
-Unique identifier for each encounter.
+- Uneven provider workloads  
+- Long wait times during peak hours  
+- Poor continuity of care  
+- Inefficient scheduling  
+- High-utilizer patients driving disproportionate demand  
 
-### patient_id  
-Unique patient identifier.
+This project provides a **data-driven framework** to optimize staffing, improve continuity, and enhance operational performance.
 
-### provider_id  
-Unique provider identifier.
+---
 
-### start_time / end_time  
-Timestamps for encounter duration.
+## 🎯 Objectives
 
-### encounter_type  
-Inpatient, Outpatient, ED, Telehealth.
+1. **Measure provider workload**  
+   - Encounters per provider  
+   - Encounter duration  
+   - Utilization index  
+   - Peak workload hours  
 
-### department  
-Clinical department.
+2. **Evaluate continuity of care**  
+   - UPC (Usual Provider Continuity)  
+   - Number of unique providers per patient  
+   - Fragmentation patterns  
 
-### payer  
-Insurance category.
+3. **Analyze operational flow**  
+   - Encounter volume by hour/day  
+   - Staffing vs. demand alignment  
+   - Wait-time proxies  
+
+4. **Identify high-utilizer patients**  
+   - Encounter frequency  
+   - Care fragmentation  
+   - Provider assignment patterns  
+
+---
+
+## 📂 Repository Structure
+
