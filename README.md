@@ -1,3 +1,6 @@
+
+<img width="6912" height="3456" alt="banner png" src="https://github.com/user-attachments/assets/35777e59-eeb3-4d94-942b-3260512b9aa0" />
+
 # 🏥 Healthcare Operations Analytics  
 Improving patient flow, reducing wait times, and strengthening operational performance through data.
 
@@ -74,6 +77,7 @@ These steps ensured the dataset was reliable enough for operational analysis.
 
 ---
 ## Dashboard - Tableau
+<img width="1956" height="1103" alt="Hospital Operations Dashboard" src="https://github.com/user-attachments/assets/73aa469c-a677-48a0-9afe-d688f86c261f" />
 
 ---
 
